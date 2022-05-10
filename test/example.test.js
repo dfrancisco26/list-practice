@@ -19,7 +19,8 @@ test('time to test a function', (expect) => {
 });
 
 test('render function', (expect) => {
-    const expected = `<div class="record"><p>Led Zeppelin II is in good condition, is a 180 gram vinyl record, and is a rock album.</p><"img src=./assets/led-zep.jpg"></div>`;
+    // eslint-disable-next-line no-useless-escape
+    const expected = `<div class="record"><p>Led Zeppelin II is in good condition, is a 180 gram vinyl record, and is a rock album.</p><img src=\"./assets/led-zep.jpg\"></div>`;
     const actual = renderAlbum(records[0]);
 
     expect.equal(actual.outerHTML, expected);

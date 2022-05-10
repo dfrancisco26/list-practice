@@ -1,6 +1,7 @@
 // import functions and grab DOM elements
-import { records } from './records-data.js';
-console.log(records);
+import { records, renderAlbum } from './records-data.js';
+
+
 // let state
 
 // set event listeners 
