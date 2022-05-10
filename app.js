@@ -1,4 +1,6 @@
 // import functions and grab DOM elements
+import { records, renderAlbum } from './records-data.js';
+
 
 // let state
 
